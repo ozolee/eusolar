@@ -16,10 +16,10 @@ return new class extends Migration {
         Schema::create('inverters', function (Blueprint $table) {
             $table->id();
             $table->string('brand');
-            $table->string('modell');
-            $table->string('performance');
+            $table->string('model');
+            $table->integer('wattage');
             $table->integer('price');
-            $table->longText('description');
+            $table->longText('description')->nullable();
         });
     }
 

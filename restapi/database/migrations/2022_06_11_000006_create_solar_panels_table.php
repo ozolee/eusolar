@@ -13,13 +13,13 @@ return new class extends Migration {
      */
     public function up()
     {
-        Schema::create('solar_panels', function (Blueprint $table) {
+        Schema::create('panels', function (Blueprint $table) {
             $table->id();
             $table->string('brand');
-            $table->string('modell');
-            $table->string('performance');
+            $table->string('model');
+            $table->integer('wattage');
             $table->integer('price');
-            $table->longText('description');
+            $table->longText('description')->nullable();
         });
     }
 

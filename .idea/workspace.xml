@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77bc566-2d81-4c83-b1ed-cab6d54128fe" name="Default Changelist" comment="" />
+    <list default="true" id="b77bc566-2d81-4c83-b1ed-cab6d54128fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Http/Controllers/InverterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Http/Controllers/PanelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Models/Inverters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Models/Panels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restapi/app/Models/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a47d4ee-762b-4d53-8b3b-ee04280d7339.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a47d4ee-762b-4d53-8b3b-ee04280d7339/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a47d4ee-762b-4d53-8b3b-ee04280d7339/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8a47d4ee-762b-4d53-8b3b-ee04280d7339/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000001_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000001_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000005_create_inverters_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000005_create_inverters_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000006_create_solar_panels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/database/migrations/2022_06_11_000006_create_solar_panels_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +28,39 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="31234cc8-b202-4cf1-8e53-0d995abbf15c" name="localhost" port="443" />
+      <server host="localhost" id="064db4d4-99ad-41e3-89f2-91aff7b94db1" name="localhost (1)" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/restapi/public" remote-root="D:/Xampp_8.0.19/phpMyAdmin" />
+          <mapping local-root="$PROJECT_DIR$/restapi/public/index.php" remote-root="D:/Xampp_8.0.19/htdocs/eusolar/restapi/public/index.php" />
+        </path_mappings>
+      </server>
+      <server host="localhost" id="cb1dddcb-4912-4cdc-9387-3df1d74913c7" name="localhost (2)" port="8000" />
+      <server host="localhost" id="40ad6a8b-c3d6-4b73-895a-41e8bec5f258" name="localhost (3)" port="8012" />
+      <server host="127.0.0.1" id="36d844dd-8685-4dcd-8d99-0e7b13c1bd4f" name="127.0.0.1" port="8000" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP_8.0.19" />
   <component name="ProjectId" id="2AR5nANR18w6tY4ZOmF5IH0SR53" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/restapi/database/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,11 +85,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654959722734</updated>
-      <workItem from="1654959724349" duration="6359000" />
+      <workItem from="1654959724349" duration="38811000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/restapi/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php</url>
+          <line>425</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
