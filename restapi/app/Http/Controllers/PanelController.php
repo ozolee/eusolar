@@ -10,15 +10,7 @@ use Illuminate\Support\Facades\DB;
 
 class PanelController extends Controller
 {
-
-    public function list(Request $request): Collection|JsonResponse
-    {
-        if ($request->get('token')) {
-            if (DB::table('users')->where('token', $request->get('token'))->first()) {
-                return Panels::all();
-            }
-            return response()->json(['message' => 'Invalid token'], 401);
-        }
-        return response()->json(['message' => 'Token missing'], 401);
+    function __construct() {
+        $this->object = "panels";
     }
 }
